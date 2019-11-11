@@ -1,3 +1,21 @@
 html, body{
     height: 100%;
 }
+
+aside{
+    display: flex;
+    background-color: green;
+    height: 100%;
+    width: 20%;
+    margin: 0;
+    justify-content: center;
+}
+
+.menu-button{
+    flex-direction: column;
+    height: 80px;
+    width: 120px;
+    background-color: white;
+    border: solid 2px black;
+    margin: 30px;
+}
