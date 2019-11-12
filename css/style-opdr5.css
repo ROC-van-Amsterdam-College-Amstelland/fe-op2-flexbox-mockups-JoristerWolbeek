@@ -1,3 +1,74 @@
 html, body{
     height: 100%;
+    background-color: orange;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20%;
+    background-color: green;
+    justify-content: center;
+}
+
+.menu-button{
+    height: 80px;
+    width: 120px;
+    background-color: white;
+    border: solid 2px black;
+    margin: 30px;
+}
+
+.menu-button0{
+    width: 120px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20%;
+    background-color: purple;
+    justify-content: flex-end;
+}
+
+.mainlinks{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+}
+
+.mainrechts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+}
+
+.mainimg{
+    width: 50%;
+    margin: auto 0;
+}
+button{
+    height: 50px;
+    width: 80px;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.contentmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
 }
